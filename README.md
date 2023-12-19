@@ -1,8 +1,4 @@
 # HPC Project: AwannaCU
-![](range10.png) 
-![](range10zoom.png)
-![](range10reallyzoomed.png)
-# Description of Implementation and Execution
 
 ## Serial Algorithm
 
@@ -221,4 +217,8 @@ As we can see, there are significant benefits to using a GPU to solve this probl
 - The shared cpu solution is better than the serial solution, because it parallelizes the problem. 
 - The shared gpu similar to the shared cpu is better then the serial solution due to parallelization. This could be improved with tiling which could make it better then the shared cpu at that point. 
 - Using a message passing interface for CPUs ends up being slower than using shared memory, but for GPUs, using a message passing interface is very beneficial.
-- This problem set lends itself very well to GPU programming as it is inherently a single instruction multiple data problem. 
+- This problem set lends itself very well to GPU programming as it is inherently a single instruction multiple data problem.
+
+![](range10.png) 
+![](range10zoom.png)
+![](range10reallyzoomed.png)
